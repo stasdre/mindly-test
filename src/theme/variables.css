@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/** Ionic CSS Variables **/
+:root {
+  --ion-color-primary: #21ABD2;
+  --ion-color-primary-rgb: 33, 171, 210;
+  --ion-color-primary-contrast: #000000;
+  --ion-color-primary-contrast-rgb: 0, 0, 0;
+  --ion-color-primary-shade: #1d96b9;
+  --ion-color-primary-tint: #37b3d7;
+
+  --ion-color-secondary: #5B5B5B;
+  --ion-color-secondary-rgb: 91, 91, 91;
+  --ion-color-secondary-contrast: #ffffff;
+  --ion-color-secondary-contrast-rgb: 255, 255, 255;
+  --ion-color-secondary-shade: #505050;
+  --ion-color-secondary-tint: #6b6b6b;
+
+  --ion-color-tertiary: #1D201F;
+  --ion-color-tertiary-rgb: 29, 32, 31;
+  --ion-color-tertiary-contrast: #ffffff;
+  --ion-color-tertiary-contrast-rgb: 255, 255, 255;
+  --ion-color-tertiary-shade: #1a1c1b;
+  --ion-color-tertiary-tint: #343635;
+
+  --ion-color-success: #478862;
+  --ion-color-success-rgb: 71, 136, 98;
+  --ion-color-success-contrast: #ffffff;
+  --ion-color-success-contrast-rgb: 255, 255, 255;
+  --ion-color-success-shade: #3e7856;
+  --ion-color-success-tint: #599472;
+
+  --ion-color-warning: #ffc409;
+  --ion-color-warning-rgb: 255, 196, 9;
+  --ion-color-warning-contrast: #000000;
+  --ion-color-warning-contrast-rgb: 0, 0, 0;
+  --ion-color-warning-shade: #e0ac08;
+  --ion-color-warning-tint: #ffca22;
+
+  --ion-color-danger: #F1646F;
+  --ion-color-danger-rgb: 241, 100, 111;
+  --ion-color-danger-contrast: #000000;
+  --ion-color-danger-contrast-rgb: 0, 0, 0;
+  --ion-color-danger-shade: #d45862;
+  --ion-color-danger-tint: #f2747d;
+
+  --ion-color-medium: #E5E5E5;
+  --ion-color-medium-rgb: 229, 229, 229;
+  --ion-color-medium-contrast: #000000;
+  --ion-color-medium-contrast-rgb: 0, 0, 0;
+  --ion-color-medium-shade: #cacaca;
+  --ion-color-medium-tint: #e8e8e8;
+
+  --ion-color-light: #E5E5E5;
+  --ion-color-light-rgb: 229, 229, 229;
+  --ion-color-light-contrast: #000000;
+  --ion-color-light-contrast-rgb: 0, 0, 0;
+  --ion-color-light-shade: #cacaca;
+  --ion-color-light-tint: #e8e8e8;
+
+  --ion-background-color: #fff;
+  --ion-toolbar-background: #fff;
+  --ion-toolbar-border-color: #fff;
+  --ion-tab-bar-background: #FFFFFF;
+  --ion-tab-bar-border-color: #FFFFFF;
+
+  --container-max-width: 410px;
+}
+
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: var(--ion-color-secondary);
+  font-size: 16px;
+}
+
+
+ion-tab-bar {
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.15);
+  padding-bottom: 25px;
+}
